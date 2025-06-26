@@ -18,20 +18,23 @@ Build a classification system with:
 ## 🔧 Project Structure
 
 self_healing_dag/
-│
-├── src/
-│ ├── utils.py # Helper functions: confidence, logging
-│ ├── train.py # Fine-tune DistilBERT on SST-2
-│ ├── dag.py # LangGraph DAG with nodes
-│ └── main.py # CLI entry point
-│
-├── model/ # Saved model and tokenizer (after training)
-│
-├── sst2_data/ # Exported CSV versions of SST-2
-├── sst2_data.zip # Zipped dataset (optional)
-│
-├── requirements.txt # Required packages
-└── README.md # Project documentation
+ utils.py # Helper functions: confidence, logging
+ 
+ train.py # Fine-tune DistilBERT on SST-2
+ 
+ dag.py # LangGraph DAG with nodes
+ 
+ main.py # CLI entry point
+ 
+ model/ # Saved model and tokenizer (after training)
+ 
+ sst2_data/ # Exported CSV versions of SST-2
+ 
+ sst2_data.zip # Zipped dataset (optional)
+ 
+ requirements.txt # Required packages
+ 
+ README.md # Project documentation
 
 
 ---
@@ -102,4 +105,5 @@ This DAG structure is ideal for human-in-the-loop ML systems
 The fallback mechanism is rule-based but can be extended to include a second model
 
 OUTPUT
+
 ![Image](https://github.com/user-attachments/assets/4a2f6a2d-59e6-427a-87ab-23f1b7d66e18)
