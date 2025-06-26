@@ -102,4 +102,4 @@ This DAG structure is ideal for human-in-the-loop ML systems
 The fallback mechanism is rule-based but can be extended to include a second model
 
 OUTPUT
-
+![Image](https://github.com/user-attachments/assets/4a2f6a2d-59e6-427a-87ab-23f1b7d66e18)
