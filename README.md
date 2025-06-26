@@ -95,10 +95,12 @@ langgraph
 peft
 accelerate
 ```
+
 Install via:
 ```sh
 pip install -r requirements.txt
 ```
+
 ## Notes
 This DAG structure is ideal for human-in-the-loop ML systems
 
